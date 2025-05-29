@@ -1,0 +1,7 @@
+export const constants = {
+    FORBIDDEN: 403,
+    VALIDATION_ERROR: 400,
+    SERVER_ERROR: 500,
+    UNAUTHORIZED: 401,
+    NOT_FOUND:404
+}
