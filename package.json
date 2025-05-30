@@ -9,7 +9,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npx ts-node index.ts",
-    "dev": "nodemon index.ts"
+    "dev": "nodemon index.ts",
+    "postinstall": "chmod +x ./node_modules/.bin/ts-node"
   },
   "dependencies": {
     "@types/cors": "^2.8.18",

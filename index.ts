@@ -17,7 +17,7 @@ app.use(
 app.use(express.json());
 app.use('/api/users', authRoutes);
 app.get('/', async(req: Request, res: Response) => {
-    res.json({ message: "Hello World" });
+    res.json({ message: "Hello World... This is a test server" });
 });
 
 const port = process.env.PORT || 5001;
