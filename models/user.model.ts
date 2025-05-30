@@ -43,7 +43,6 @@ const UserSchema: Schema<IUser> = new Schema(
     },
     pin: {
       type: Number,
-      required: true,
     },
   },
   {
