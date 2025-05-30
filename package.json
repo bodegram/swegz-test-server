@@ -8,7 +8,7 @@
   "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "ts-node index.ts",
+    "start": "npx ts-node index.ts",
     "dev": "nodemon index.ts"
   },
   "dependencies": {
